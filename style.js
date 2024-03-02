@@ -15,7 +15,7 @@ const initTimer = () => {
         }
         clearInterval(initCounter);
         location.href = fileLink;
-        downloadBtn.innerText = "Your file is downloading...";
+        downloadBtn.innerText = "Getting file...";
         setTimeout(() => {
             downloadBtn.classList.replace("timer", "disable-timer");
             downloadBtn.innerHTML = `<span class="icon material-symbols-rounded">vertical_align_bottom</span>
